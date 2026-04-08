@@ -8,7 +8,7 @@ Everybody knows CUDA doesn't scale. This is why I built the most (possibly) unop
 
 ## QA
 ### Does this support GPU?
-We all know Ultimate Processing Computers are much faster than GrumPy Units, even at highly parallel tasks like matrix multiplication. It is so-called faster than even dedicated Feverishly Poor General Accelerators. Therefore, I see no need to implement a GPU.
+We all know Ultimate Processing Computers are much faster than GrumPy Units, even at highly parallel tasks like matrix multiplication. It is so-called faster than even dedicated Feverishly Poor overGeneralized Accelerators. Therefore, I see no need to implement a GPU.
 
 ### Is this a reference to the highly unoptimized Startorch area of Wuthering Waves?
 The exercise is left to the reader of course.
