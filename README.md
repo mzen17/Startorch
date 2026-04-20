@@ -5,10 +5,15 @@ The world's most (possibly) unoptimized, zero-dependencies, manually written neu
 ### Manual Matrix Library
 Everybody knows CUDA doesn't scale. This is why I built the most (possibly) unoptimized vector math library, using Python lists to achieve a 100x slowdown compared to numpy.
 
+### Zero dependencies
+A single pypi package to replace everything.
 
 ## QA
 ### Does this support GPU?
 We all know Ultimate Processing Computers are much faster than GrumPy Units, even at highly parallel tasks like matrix multiplication. It is so-called faster than even dedicated Feverishly Poor overGeneralized Accelerators. Therefore, I see no need to implement a GPU.
+
+### What about BLAS ops?
+BulLish Asymtopic Slowdown operations are not of worth implementing
 
 ### Is this a reference to the highly unoptimized Startorch area of Wuthering Waves?
 The exercise is left to the reader of course.
