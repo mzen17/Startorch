@@ -1,5 +1,5 @@
 #########################################################
-# An example of a basic single layer network            #
+# An example of a basic single layer network using MLE  #
 #########################################################
 
 from vectorlib.matrix import Matrix

@@ -19,4 +19,4 @@ BulLish Asymtopic Slowdown operations are not of worth implementing
 The exercise is left to the reader of course.
 
 ## Notes
-This project was developed while I was reading Numerical Analysis by Kendall Atkinson.
+This project was developed while I was reading Numerical Analysis by Kendall Atkinson. Neural net library is implemented using reference material from CS:5430 Machine Learning at UIowa.

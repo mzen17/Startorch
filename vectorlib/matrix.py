@@ -37,7 +37,7 @@ class Matrix():
     
 
     def sub(self, another_mat: Matrix):
-        if self.dim != another_mat.dim():
+        if self.dim != another_mat.dim:
             raise ValueError("Can only add matrix of same size")
 
         for i in range(self.dim[0]):
@@ -46,6 +46,13 @@ class Matrix():
 
         return self.value
 
+
+    def scale(self, scalar):
+        new_mat = Matrix(self.dim[0], self.dim[1], 1)
+        for i in range(self.dim[0]):
+            for j in range(self.dim[1]):
+                new_mat.value[i][j] = self.value[i][j] * scalar
+        return new_mat
 
     def multiply(self, another_mat: Matrix):
         if self.dim[1] != another_mat.dim[0]:
